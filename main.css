@@ -1,0 +1,43 @@
+#main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+
+#main-cont > div {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+  font-weight: bolder;
+}
+
+#main-cont > div > p,
+#matter-container > div > p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#matter-container {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+#matter-container > div {
+  width: 13%;
+  text-align: left;
+}
+
+#matter-container > div > img {
+  width: 100%;
+}
+
+h1 {
+  margin: 5% auto auto 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(97, 97, 97);
+}
